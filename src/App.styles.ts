@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import BGImage from './asset/bgImage.jpg';
+import BGImage from './asset/aheibam-meetei-PaKHK506R0Q-unsplash.jpg';
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Wrapper = styled.div`
+  margin-top:3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +33,7 @@ export const Wrapper = styled.div`
     margin: 0;
   }
   h1 {
-    font-family: Fascinate Inline;
+    font-family: 'Press Start 2P', cursive;
     background-image: linear-gradient(180deg, #fff, #87f1ff);
     font-weight: 400;
     background-size: 100%;
